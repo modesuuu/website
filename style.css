@@ -1,0 +1,28 @@
+:root{
+    --main-color : #4586FF;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--main-color);
+    
+
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav-link{
+    font-size: 16px;
+}
+.nav-link.active{
+    font-weight: 700;
+}
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--main-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
