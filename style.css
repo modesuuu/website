@@ -1,0 +1,236 @@
+:root{
+    --main-color : #4586FF;
+}
+body{
+    font-family: 'Poppins', sans-serif !important;
+    
+    
+
+}
+/*Navbar*/
+.nanbar{
+    z-index: 3;
+}
+*{
+    z-index: 2;
+}
+.navbar-brand{
+    font-weight: 700;
+    font-size: 20px;
+    color: #fff !important;
+}
+.nav-link{
+    font-size: 16px;
+    color: #fff !important;
+}
+.nav-link.active{
+    font-weight: 700;
+}
+.button-primary{
+    border: none;
+    color: #fff;
+    background-color: transparent;
+}
+.button-secondary{
+    width: 133px;
+    height: 40px;
+    background-color: #fff;
+    color: var(--main-color);
+    border: none;
+    font-size: 16px;
+    font-weight: 700;
+}
+/*Hero*/
+#hero{
+    background: linear-gradient(134.69deg, #4586FF 29.64%, rgba(0, 0, 0, 0.82) 127.25%) !important;
+    height: 100vh;
+    width: 100%;
+}
+.img-hero{
+    height: 100%;
+    z-index: 1;
+}
+.hero-tagline{
+    color: #fff;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 78px;
+}
+.p-hero{
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 60px;
+    margin-top: 20px;
+    line-height: 30px;
+    width: 88% !important;
+}
+.button-lg-primary{
+    width: 237px;
+    height: 70px;
+    background-color: #fff;
+    color: var(--main-color);
+    border: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+/*card*/
+#profil{
+    padding: 100px 0 !important;
+    background-color: #EFEFEF;
+}
+h2{
+    font-size: 48px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+.m{
+    font-size: 18px;
+    color: #000;
+}
+.card-profile{
+    width: 365px;
+    height: 300px ;
+    border-radius: 5px;
+    background-color: #fff !important;
+    padding: 40px;
+
+    transition: all .2s ease-in;
+}
+.circle-icon{
+    width: 60px;
+    height: 60px;
+    background-color: #4586FF;
+    border-radius: 50%;
+
+    transition: all .1s ease-in;
+}
+.card-profile h3{
+    color: #4586FF;
+    font-size: 24px;
+    
+    transition: all .2s ease-in;
+
+}
+.card-profile p{
+    color: #000 ; 
+    font-size: 14px;
+
+    transition: all .2s ease-in;
+}
+
+/*hover*/
+
+.card-profile:hover{
+    width: 365px;
+    height: 300px ;
+    border-radius: 5px;
+    background:linear-gradient(134.69deg, #4586FF 29.64%, rgba(0, 0, 0, 0.82) 127.25%) !important;
+    padding: 40px;
+
+    transition: all .2s ease-in;
+}
+.card-profile:hover .circle-icon{
+    background-color: #fff;
+    transition: all .1s ease-in;
+}
+.card-profile:hover h3{
+    color: #fff;
+    font-size: 24px;
+
+    transition: all .2s ease-in;
+}
+.card-profile:hover p{
+    color: #fff ; 
+    font-size: 14px;
+
+    transition: all .2s ease-in;
+}
+
+/* fasilitas */
+#fasilitas{
+    background-image: url(../img/Group\ 13.svg);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#fasilitas h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 600;
+    line-height: 72px;
+}
+#fasilitas p{
+    color: #fff;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+}
+#y{
+    margin-top: 181px;
+}
+
+/* tempat */
+#tempat{
+    background-color: #EFEFEF;
+    margin-bottom: 80px;
+}
+.card{
+    height: 374px;
+    border: none !important;
+    background-color: #fff;
+    transition: all .2s ease-in;
+}
+.card-body h4{
+    color:#000;
+    font-weight: 700;
+    font-size: 24px;
+    transition: all .1s ease-in;
+}
+.card-body p{
+    margin-top: 5px;
+    color: #000;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+.k{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    margin-top: 0px;
+    transition: all .2s ease-in;
+}
+
+/* hover card */
+.card:hover{
+    height: 374px;
+    border: none !important;
+    background: linear-gradient(134.69deg, #4586FF 29.64%, rgba(0, 0, 0, 0.82) 127.25%);
+    transition: all .2s ease-in;
+}
+.card-body:hover h4{
+    color:#fff;
+    font-weight: 700;
+    font-size: 24px;
+    transition: all .1s ease-in;
+}
+.card-body:hover p{
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
+    transition: all .2s ease-in;
+}
+.card-body:hover .k{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    margin-top: 0px;
+    transition: all .2s ease-in;
+}
